@@ -1,0 +1,27 @@
+ .wrap > button{
+    border: 0;
+    background-color: #f8f9fa;
+ }
+
+.wrap{
+    /* margin-left: 40em; */
+    height: 5em;
+    font-size: 40px;
+    
+    
+
+}
+ 
+.notext{color: #585252;
+    margin-top: 0;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.bell{color: #585252;
+    font-size: 50px;
+    padding: 0;
+    border: 0;
+    /* margin-bottom: 0px; */
+}
+

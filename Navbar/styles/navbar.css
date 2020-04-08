@@ -1,0 +1,38 @@
+.mr-auto{
+    flex: 1;
+}
+
+.photo{
+    border-radius: 99rem;
+    border: 4px solid #fff;
+    height: 6rem;
+    width: 6rem; 
+    /* margin: 15px;
+    margin-left: 10em; */
+
+}
+
+.share{
+
+    font-size: 2.5rem;  
+    background-color: #02b3ea;
+    color: white;
+    width: 14.5rem;
+    height: 4.5rem;
+    border-radius: 31px 31px ;
+    border: 0;
+    /* margin: 15px;
+    margin-left: 10em; */
+}
+
+.arrow{
+    color: #02b3ea;
+    font-size: 35px;
+    /* margin: 15px;
+    margin-left: 10em;
+    margin-right: 2em; */
+} 
+
+.navbar{
+    border-top: 1.3em solid #02b3ea;
+}
