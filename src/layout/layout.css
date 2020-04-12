@@ -1,0 +1,40 @@
+.icon-text {
+  margin-left: 16px;
+  width: 60%;
+  font-weight: 300;
+  font-size: inherit;
+  font-size: 14px;
+}
+
+.custom-icon {
+  font-size: 22px;
+}
+
+.custom-li:hover {
+  color: #0179ad;
+  background: #dff0fa;
+  font-weight: bold;
+}
+
+.check-in-button {
+  border-radius: 30px;
+  padding-right: 45px;
+  height: 45px;
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0179ad !important;
+  color: #0179ad;
+  font-weight: 600;
+}
+
+.check-in-button:active {
+  color: #fff;
+  background-color: #0179ad;
+}
+.check-in-button:hover {
+  color: #fff;
+  background-color: #0179ad;
+  border: none;
+}
