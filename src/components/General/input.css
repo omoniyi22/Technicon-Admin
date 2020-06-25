@@ -1,0 +1,9 @@
+.custom-input {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.custom-input:active {
+  border: 2px solid #56ccf2 !important;
+  outline: none !important;
+}

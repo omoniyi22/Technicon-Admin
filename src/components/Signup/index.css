@@ -1,0 +1,113 @@
+/* Mobile first */
+
+.login-container {
+  /* border: 1px solid rebeccapurple; */
+}
+
+.login-logo-container {
+  /* border: 1px solid orange; */
+  display: flex;
+  height: 50vh;
+}
+
+.login-logo-container .vector-1 {
+  width: 80%;
+  background-image: url("../../assets/svg/left-eclipse.svg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-size: contain;
+}
+.login-logo-container .vector-2 {
+  width: 30%;
+  background-image: url("../../assets/svg/right-eclipse.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  position: relative;
+  bottom: 2rem;
+}
+
+.l-logo {
+  /* border: 1px solid red; */
+  height: 80px;
+  width: 108px;
+  position: absolute;
+  top: 3rem;
+}
+
+.login-logo {
+  height: 100%;
+  width: 100%;
+}
+
+.l-logo-container {
+  /* border: 1px solid green; */
+  justify-content: center;
+  display: flex;
+}
+
+.login-title {
+  /* border: 1px solid rebeccapurple; */
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 1rem 0;
+  color: #333333;
+}
+
+.login-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #333333;
+}
+
+.got-an-account {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 1rem;
+}
+
+#sign-in {
+  color: #0179ad;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Form */
+
+.login-form-container {
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem;
+}
+
+.MuiInputBase-input {
+  height: 0.8rem !important;
+  color: rebeccapurple !important;
+  font-size: 0.8rem !important;
+}
+
+.MuiInput-root {
+  border: 1px solid green !important;
+}
+
+/* Button */
+
+.auth-button {
+  background: #0179ad;
+  color: #ffffff;
+  height: 50px;
+  width: 280px;
+  /* border-radius: 50px; */
+}

@@ -1,0 +1,30 @@
+/* Notification section */
+
+.notification-section {
+  /* border: 1px solid red; */
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.nav-first-section {
+  display: flex;
+  /* border: 1px solid rebeccapurple; */
+  align-items: center;
+  flex: 1;
+}
+
+.search-section {
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.nav-avatar {
+  /* border: 1px solid green; */
+  flex: 2;
+}
+
+.nav-share {
+  /* border: 1px solid green; */
+  flex: 3;
+}
