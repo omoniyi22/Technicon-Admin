@@ -3,6 +3,12 @@ import React from "react";
 import styled from "styled-components";
 import { mySVG } from "../assets/svg/svg";
 import Header from "../components/Header/header";
+import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+
 import "./layout.css";
 const ListText = {
   home: "Manage Dashboard",
@@ -67,7 +73,7 @@ export default class Layout extends React.Component {
               <Li name={ListText.logout} icon="fas fa-sign-out-alt" />
             </Nav>
           </Aside>
-          <div>{children}</div>
+          <Section>{children}</Section>
         </Body>
       </Container>
     );
@@ -103,4 +109,9 @@ const Aside = styled.div`
   -moz-box-shadow: 0 3px 2px -2px rgba(200, 200, 200, 0.4);
   box-shadow: 0 3px 2px -2px rgba(200, 200, 200, 0.4);
   padding: 1.2rem 0rem;
+`;
+
+const Section = styled.section`
+  border: 1px solid orange;
+  width: 70%;
 `;
